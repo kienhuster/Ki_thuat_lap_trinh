@@ -106,7 +106,6 @@ int main(){
    /*Bai 6: In giá trị nhị phân của số nguyên 1 byte ra màn hình​*/
 int main(){
 int x = 9;
-cout<<" Gia tri cua x: "<<x<<endl;
 int a = 1 << 7;
 cout<<"Giá trị nhị phân của "<< x <<" la : ";
 for(int i = 0 ; i < 8; i++){
