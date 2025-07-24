@@ -254,8 +254,8 @@ int* taoMang(int n) {
     cout << "Nhap cac phan tu cua mang: ";
     for (int i = 0; i < n; i++) {
         cin >> *(a + i);
-        return a;
     }
+    return a;
 }
 /*Bai 15: Viết hàm tạo xâu mới chuyển các chữ cái thường thành chữ cái viết hoa từ xâu đầu vào*/
 char* Toupper(const char* s){
